@@ -1,0 +1,44 @@
+.card {
+  width: 268px;
+  height: 441px;
+  border-radius: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.card-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  padding-left: 70px; /* Adjust this value based on the icon width */
+  color: #ffffff;
+}
+
+.card-spacing {
+}
+
+.card-overlap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 600px;
+  z-index: 0;
+}

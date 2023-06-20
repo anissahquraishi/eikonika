@@ -32,13 +32,40 @@
   color: #ffffff;
 }
 
-.card-spacing {
-}
-
 .card-overlap {
   position: absolute;
   top: 0;
   left: 0;
   padding: 570px;
   z-index: 0;
+}
+
+.card-button {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  padding-left: 50px;
+  color: #000;
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 45px;
+}
+
+.card-button a {
+  text-decoration: none;
+}
+
+.card h2 {
+  font-family: StingerVariable-Heavy;
+  font-size: 19px;
+  color: #ffffff;
+  letter-spacing: -0px;
+}
+
+.card-button a {
+  font-family: Sora-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: -0px;
+  text-align: center;
 }

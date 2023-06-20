@@ -1,0 +1,12 @@
+.partenaire {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.partenaire img {
+  width: 100px;
+  height: auto;
+  margin: 0 10px;
+}

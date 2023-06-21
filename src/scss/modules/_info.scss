@@ -1,0 +1,36 @@
+.info-box p {
+  font-family: Sora-Regular;
+  font-size: 20px;
+  color: #4c4b4b;
+  letter-spacing: 0.42px;
+}
+
+.info-box img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 50px;
+}
+
+.info-box {
+  border: 2px solid #979797;
+  border-radius: 80.98px;
+  width: 458px;
+  height: 117px;
+  display: flex;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-title {
+  font-family: StingerVariable-Bold;
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: -0.01px;
+  line-height: 58px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}

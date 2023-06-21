@@ -1,0 +1,39 @@
+.about-image {
+  width: 480px;
+  height: 397px;
+  display: flex;
+  flex-direction: row;
+  //   flex-wrap: nowrap;
+}
+
+.about-image img {
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  font-family: Sora-Regular;
+  font-size: 20px;
+  color: #585757;
+  letter-spacing: 0.42px;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 30px;
+}

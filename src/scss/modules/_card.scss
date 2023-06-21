@@ -5,6 +5,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .card-icon {
@@ -36,7 +37,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding: 570px;
+  // padding: 570px;
   z-index: 0;
 }
 
@@ -76,8 +77,8 @@
   justify-content: space-around;
   align-items: center;
   position: relative;
-  top: -100;
-  left: 0;
+  // top: -320;
+  // left: 0;
 }
 
 .card-expositions {
@@ -85,5 +86,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: relative;
+  //   position: relative;
+  //   position: relative;
+  //   top: -270;
+  //   left: 0;
 }

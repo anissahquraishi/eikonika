@@ -1,5 +1,6 @@
 .header-title {
-  font-family: StingerVariable-Bold;
+  font-family: stinger-variable, sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 700;
   font-size: 69px;
   color: #ffffff;
   letter-spacing: -0.02px;
@@ -7,10 +8,12 @@
   line-height: 58px;
   text-shadow: 0 7px 9px rgba(0, 0, 0, 0.13);
   padding: 190px 177px 22px;
+  text-transform: uppercase;
 }
 
 .header-text {
-  font-family: Sora-Regular_Bold;
+  font-family: stinger-variable, sans-serif;
+  font-variation-settings: "wdth" 110, "wght" 400;
   font-size: 28px;
   color: #ffffff;
   letter-spacing: 0.59px;
@@ -19,8 +22,13 @@
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   font-weight: 100;
   padding-bottom: 220px;
+  text-transform: uppercase;
 }
 
+.header-text span {
+  font-family: stinger-variable, sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 700;
+}
 .nav-elements {
   display: flex;
   flex-direction: row;
@@ -29,9 +37,26 @@
   padding: 30 0;
 }
 
-.menu {
+.nav-elements a {
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #928e8e;
+  letter-spacing: 0.32px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #928e8e;
+  letter-spacing: 0.32px;
 }

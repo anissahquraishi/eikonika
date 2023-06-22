@@ -1,5 +1,6 @@
 .contact-footer {
-  font-family: Sora-Regular;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   color: #5c5c5c;
   letter-spacing: 0.42px;
@@ -14,7 +15,8 @@
   background: #ffffff;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
   border-radius: 32px;
-  font-family: StingerVariable-Regular;
+  font-family: stinger-variable, sans-serif;
+  font-variation-settings: "wdth" 75, "wght" 400;
   font-size: 19px;
   color: #000000;
   letter-spacing: -0px;
@@ -24,7 +26,8 @@
 
 .contact-button a {
   text-decoration: none;
-  font-family: Sora-Regular;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   color: #000000;
   letter-spacing: -0px;
